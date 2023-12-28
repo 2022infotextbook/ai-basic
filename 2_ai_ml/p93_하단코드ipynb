@@ -1,0 +1,43 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": [
+        "from sklearn.neighbors import KNeighborsClassifier\n",
+        "from sklearn.metrics import accuracy_score\n",
+        "model = KNeighborsClassifier() # k-최근접 이웃 알고리즘 객체 생성\n",
+        "model.fit(x_train, y_train) # 학습 데이터를 주어 학습\n",
+        "model_pred = model.predict(x_test) # 학습한 모델에 테스트 데이터로 예측\n",
+        "score=accuracy_score(y_test, model_pred) # 예측 성능 평가(정확도)"
+      ],
+      "metadata": {
+        "id": "fh_zpr3BuNwV"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "yNm23dY2uFxN"
+      },
+      "outputs": [],
+      "source": []
+    }
+  ]
+}
