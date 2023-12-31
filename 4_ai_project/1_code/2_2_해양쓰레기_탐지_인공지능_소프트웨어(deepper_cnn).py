@@ -27,7 +27,7 @@ not_trash_folder = '/content/drive/MyDrive/인공지능 ᄑ
 trash_folder = '/content/drive/MyDrive/인공지능 프로젝트/img/trash'
 
 # 수집된 이미지가 없다면
-# 출판사 제공 깃허브 클론
+# 깃허브 클론
 !git clone https://github.com/2022infotextbook/ai-basic.git
 
 # Google Drive에 있는 img 폴더 경로
