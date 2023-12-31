@@ -14,10 +14,10 @@ Original file is located at
 
 ## 2. 데이터 수집 및 전처리
 
-(1) 데이터 수집(출판사 제공 깃허브 또는 구글 드라이브)
+(1) 데이터 수집
 """
 
-# 출판사 제공 깃허브 클론
+# 깃허브 클론
 !git clone https://github.com/2022infotextbook/ai-basic.git
 
 
