@@ -230,7 +230,6 @@ print(f'Test Accuracy: {test_accuracy}')
 """## 6. 직접 해보기(*.jpg 또는 jpeg)"""
 
 from google.colab import files
-#import os
 from skimage import io
 from skimage.transform import resize
 
